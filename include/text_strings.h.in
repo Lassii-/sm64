@@ -18,11 +18,11 @@
  * Global Text
  */
 // File Select
-#define TEXT_NEW _("NEW") // New File Text
+#define TEXT_NEW _("NEW")      // New File Text
 #define TEXT_4DASHES _("----") // Used in Score File Menu
 
 // Ingame Menu
-#define TEXT_PAUSE _("PAUSE") // Pause text, Castle Courses
+#define TEXT_PAUSE _("PAUSE")                         // Pause text, Castle Courses
 #define TEXT_HUD_CONGRATULATIONS _("CONGRATULATIONS") // Course Complete Text, Bowser Courses
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
@@ -231,74 +231,97 @@
  */
 #define TEXT_RETURN_FR _("RETOUR")
 #define TEXT_RETURN_DE _("ZURÜCK")
+#define TEXT_RETURN_FI _("PALAA")
 
 #define TEXT_CHECK_SCORE_FR _("SCORE")
 #define TEXT_CHECK_SCORE_DE _("LEISTUNG")
+#define TEXT_CHECK_SCORE_FI _("PISTEET")
 
 #define TEXT_COPY_FILE_FR _("COPIER")
 #define TEXT_COPY_FILE_DE _("KOPIEREN")
+#define TEXT_COPY_FILE_FI _("KOPIOI")
 
 #define TEXT_ERASE_FILE_FR _("EFFACER")
 #define TEXT_ERASE_FILE_DE _("LÖSCHEN")
+#define TEXT_ERASE_FILE_FI _("POISTA")
 
 #define TEXT_SELECT_FILE_FR _("CHOISIR  FICHIER")
 #define TEXT_SELECT_FILE_DE _("WwHLE SPIEL")
+#define TEXT_SELECT_FILE_FI _("VALITSE TIEDOSTO")
 
 #define TEXT_SCORE_FR _("SCORE")
 #define TEXT_SCORE_DE _("LEISTUNG")
+#define TEXT_SCORE_FI _("PISTEET")
 
 #define TEXT_COPY_FR _("COPIER")
 #define TEXT_COPY_DE _("KOPIEREN")
+#define TEXT_COPY_FI _("KOPIOI")
 
 #define TEXT_ERASE_FR _("EFFACER")
 #define TEXT_ERASE_DE _("LÖSCHEN")
+#define TEXT_ERASE_FI _("POISTA")
 
-#define TEXT_OPTION _("OPTION")  // new in EU
+#define TEXT_OPTION _("OPTION") // new in EU
 #define TEXT_OPTION_FR _("OPTION")
 #define TEXT_OPTION_DE _("OPTIONEN")
+#define TEXT_OPTION_FI _("ASETUKSET")
 
 #define TEXT_CHECK_FILE_FR _("VOIR  SCORE")
 #define TEXT_CHECK_FILE_DE _("VON WELCHEM SPIEL")
+#define TEXT_CHECK_FILE_FI _("MISTÄ TIEDOSTOSTA")
 
 #define TEXT_NO_SAVED_DATA_EXISTS_FR _("AUCUNE SAUVEGARDE DISPONIBLE")
 #define TEXT_NO_SAVED_DATA_EXISTS_DE _("KEIN SPIEL VORHANDEN")
+#define TEXT_NO_SAVED_DATA_EXISTS_FI _("TIEDOSTOA EI LÖYTYNYT")
 
 #define TEXT_COPY_FILE_BUTTON_FR _("COPIER  FICHIER")
 #define TEXT_COPY_FILE_BUTTON_DE _("SPIEL KOPIEREN")
+#define TEXT_COPY_FILE_BUTTON_FI _("KOPIOI TIEDOSTO")
 
 #define TEXT_COPY_IT_TO_WHERE_FR _("COPIER SUR?")
 #define TEXT_COPY_IT_TO_WHERE_DE _("WOHIN KOPIEREN?")
+#define TEXT_COPY_IT_TO_WHERE_FI _("MIHIN KOPIOIDAAN?")
 
 #define TEXT_COPYING_COMPLETED_FR _("COPIE ACHEVEÉ")
 #define TEXT_COPYING_COMPLETED_DE _("SPIEL KOPIERT")
+#define TEXT_COPYING_COMPLETED_FI _("KOPIOINTI VALMIS")
 
 #define TEXT_SAVED_DATA_EXISTS_FR _("SAVEGARDE EXISTANTE")
 #define TEXT_SAVED_DATA_EXISTS_DE _("BEREITS BELEGT")
+#define TEXT_SAVED_DATA_EXISTS_FI _("TIEDOSTO ON JO OLEMASSA")
 
 #define TEXT_NO_FILE_TO_COPY_FROM_FR _("AUCUN FICHIER VIDE")
 #define TEXT_NO_FILE_TO_COPY_FROM_DE _("KEIN PLATZ VORHANDEN")
+#define TEXT_NO_FILE_TO_COPY_FROM_FI _("TIEDOSTOA EI LÖYTYNYT")
 
 #define TEXT_YES_FR _("OUI")
 #define TEXT_YES_DE _("JA")
+#define TEXT_YES_FI _("KYLLÄ")
 
 #define TEXT_NO_FR _("NON")
 #define TEXT_NO_DE _("NEIN")
+#define TEXT_NO_FI _("EI")
 
 #define TEXT_ERASE_FILE_BUTTON_FR _("EFFACER  FICHIER")
 #define TEXT_ERASE_FILE_BUTTON_DE _("SPIEL LxSCHEN")
+#define TEXT_ERASE_FILE_BUTTON_FI _("TIEDOSTO POISTETTU")
 
 #define TEXT_SURE_FR _("OK?")
 #define TEXT_SURE_DE _("SICHER?")
+#define TEXT_SURE_FI _("OK?")
 
 #define TEXT_FILE_MARIO_A_JUST_ERASED_FR _("MARIO A EFFACÉ")
 #define TEXT_FILE_MARIO_A_JUST_ERASED_DE _("MARIO A GELÖSCHT")
+#define TEXT_FILE_MARIO_A_JUST_ERASED_FI _("MARIO A POISTETTU")
 
 #define TEXT_SOUND_SELECT_FR _("SON")
 #define TEXT_SOUND_SELECT_DE _("SOUND")
+#define TEXT_SOUND_SELECT_FI _("wwNI")
 
-#define TEXT_LANGUAGE_SELECT _("LANGUAGE SELECT")  // new in EU
+#define TEXT_LANGUAGE_SELECT _("LANGUAGE SELECT") // new in EU
 #define TEXT_LANGUAGE_SELECT_FR _("SELECTION LANGUE")
 #define TEXT_LANGUAGE_SELECT_DE _("WwHLE SPRACHE")
+#define TEXT_LANGUAGE_SELECT_FI _("KIELEN VALINTA")
 
 #define TEXT_STEREO_FR _("STÉRÉO")
 #define TEXT_MONO_FR _("MONO")
@@ -308,84 +331,115 @@
 #define TEXT_MONO_DE _("MONO")
 #define TEXT_HEADSET_DE _("PHONES")
 
+#define TEXT_STEREO_FI _("STEREO")
+#define TEXT_MONO_FI _("MONO")
+#define TEXT_HEADSET_FI _("KUULOKKEET")
+
 #define TEXT_ENGLISH _("ENGLISH")
 #define TEXT_FRENCH _("FRANÇAIS")
 #define TEXT_GERMAN _("DEUTSCH")
+#define TEXT_FINNISH _("SUOMI")
 
 #define TEXT_HI_SCORE_FR _("MEILLEUR SCORE")
 #define TEXT_HI_SCORE_DE _("BESTLEISTUNG")
+#define TEXT_HI_SCORE_FI _("PARHAAT PISTEET")
 
 #define TEXT_MY_SCORE_FR _("MON SCORE")
 #define TEXT_MY_SCORE_DE _("LEISTUNG")
+#define TEXT_MY_SCORE_FI _("PISTEET")
 
 #define TEXT_NEW_FR _("VIDE")
 #define TEXT_NEW_DE _("FREI")
-
+#define TEXT_NEW_FI _("UUSI")
 
 /**
  * Menus Text (Pause, Course Completed)
  */
 // Main Courses
 // English, "R" text is different
-#define TEXT_CAMERA_ANGLE_R             _("SET CAMERA ANGLE WITH [R]")
+#define TEXT_CAMERA_ANGLE_R _("SET CAMERA ANGLE WITH [R]")
 // French
-#define TEXT_COURSE_FR                  _("NIVEAU")
-#define TEXT_MY_SCORE_FR                _("MON SCORE")
-#define TEXT_CONTINUE_FR                _("CONTINUER")
-#define TEXT_EXIT_COURSE_FR             _("QUITTER NIVEAU")
-#define TEXT_CAMERA_ANGLE_R_FR          _("RÉGLAGE CAMÉRA AVEC [R]")
+#define TEXT_COURSE_FR _("NIVEAU")
+#define TEXT_MY_SCORE_FR _("MON SCORE")
+#define TEXT_CONTINUE_FR _("CONTINUER")
+#define TEXT_EXIT_COURSE_FR _("QUITTER NIVEAU")
+#define TEXT_CAMERA_ANGLE_R_FR _("RÉGLAGE CAMÉRA AVEC [R]")
 // German
-#define TEXT_COURSE_DE                  _("KURS")
-#define TEXT_MY_SCORE_DE                _("LEISTUNG")
-#define TEXT_CONTINUE_DE                _("WEITER")
-#define TEXT_EXIT_COURSE_DE             _("KURS VERLASSEN")
-#define TEXT_CAMERA_ANGLE_R_DE          _("KAMERA MIT [R] VERSTELLEN")
+#define TEXT_COURSE_DE _("KURS")
+#define TEXT_MY_SCORE_DE _("LEISTUNG")
+#define TEXT_CONTINUE_DE _("WEITER")
+#define TEXT_EXIT_COURSE_DE _("KURS VERLASSEN")
+#define TEXT_CAMERA_ANGLE_R_DE _("KAMERA MIT [R] VERSTELLEN")
+// Finnish
+#define TEXT_COURSE_FI _("RATA")
+#define TEXT_MY_SCORE_FI _("PISTEET")
+#define TEXT_CONTINUE_FI _("JATKA")
+#define TEXT_EXIT_COURSE_FI _("POISTU RADASTA")
+#define TEXT_CAMERA_ANGLE_R_FI _("VAIHDA KAMERAKULMAA PAINAMALLA [R]")
 
 // Camera Options
 // French
-#define TEXT_NORMAL_UPCLOSE_FR          __("(NORMAL)(GROS-PLAN)")
-#define TEXT_NORMAL_FIXED_FR            __("(NORMAL)(FIXE)")
+#define TEXT_NORMAL_UPCLOSE_FR __("(NORMAL)(GROS-PLAN)")
+#define TEXT_NORMAL_FIXED_FR __("(NORMAL)(FIXE)")
 // German
-#define TEXT_NORMAL_UPCLOSE_DE          __("(NORMAL)(WEIT-ZOOM)")
-#define TEXT_NORMAL_FIXED_DE            __("(NORMAL)(STATIV)")
+#define TEXT_NORMAL_UPCLOSE_DE __("(NORMAL)(WEIT-ZOOM)")
+#define TEXT_NORMAL_FIXED_DE __("(NORMAL)(STATIV)")
+// Finnish
+#define TEXT_NORMAL_UPCLOSE_FI __("(NORMAALI)(LÄHIKULMA)")
+#define TEXT_NORMAL_FIXED_FI __("(NORMAALI)(KIINTEÄ)")
 
 // Course Completed Misc Text
 // French
-#define TEXT_HUD_HI_SCORE_FR            _("MEILLEUR SCORE")
-#define TEXT_HUD_CONGRATULATIONS_FR     _("FELICITATIONS")
+#define TEXT_HUD_HI_SCORE_FR _("MEILLEUR SCORE")
+#define TEXT_HUD_CONGRATULATIONS_FR _("FELICITATIONS")
 // German
-#define TEXT_HUD_HI_SCORE_DE            _("BESTLEISTUNG")
-#define TEXT_HUD_CONGRATULATIONS_DE     _("GRATULATION")
+#define TEXT_HUD_HI_SCORE_DE _("BESTLEISTUNG")
+#define TEXT_HUD_CONGRATULATIONS_DE _("GRATULATION")
+// Finnish
+#define TEXT_HUD_HI_SCORE_FI _("PARHAAT PISTEET")
+#define TEXT_HUD_CONGRATULATIONS_FI _("ONNITTELUT")
 
 // Save Options
 // French
-#define TEXT_SAVE_AND_CONTINUE_FR       _("SAUVEGARDER & CONTINUER")
-#define TEXT_SAVE_AND_QUIT_FR           _("SAUVEGARDER & QUITTER")
+#define TEXT_SAVE_AND_CONTINUE_FR _("SAUVEGARDER & CONTINUER")
+#define TEXT_SAVE_AND_QUIT_FR _("SAUVEGARDER & QUITTER")
 #define TEXT_CONTINUE_WITHOUT_SAVING_FR _("CONTINUER SANS SAUVEGARDER")
 // German
-#define TEXT_SAVE_AND_CONTINUE_DE       _("SPEICHERN & WEITER")
-#define TEXT_SAVE_AND_QUIT_DE           _("SPEICHERN & ENDE")
+#define TEXT_SAVE_AND_CONTINUE_DE _("SPEICHERN & WEITER")
+#define TEXT_SAVE_AND_QUIT_DE _("SPEICHERN & ENDE")
 #define TEXT_CONTINUE_WITHOUT_SAVING_DE _("WEITER OHNE ZU SPEICHERN")
+// Finnish
+#define TEXT_SAVE_AND_CONTINUE_FI _("TALLENNA & JATKA")
+#define TEXT_SAVE_AND_QUIT_FI _("TALLENNA & LOPETA")
+#define TEXT_CONTINUE_WITHOUT_SAVING_FI _("JATKA TALLENTAMATTA")
 
 /**
  * Ending Peach cutscene text.
  */
 // French
 #define TEXT_POWER_STARS_RESTORED_FR _("Grâce aux étoiles, le château a retrouvé ses pouvoirs...")
-#define TEXT_THANKS_TO_YOU_FR        _("...et ceci grâce à toi!")
-#define TEXT_THANK_YOU_MARIO_FR      _("Merci, Mario!")
-#define TEXT_SOMETHING_SPECIAL_FR    _("Tu mérites une récompense...")
-#define TEXT_COME_ON_EVERYBODY_FR    _("Venez les amis...")
-#define TEXT_LETS_HAVE_CAKE_FR       _("Allons préparer un délicieux gâteau...")
-#define TEXT_FOR_MARIO_FR            _("...pour Mario...")
+#define TEXT_THANKS_TO_YOU_FR _("...et ceci grâce à toi!")
+#define TEXT_THANK_YOU_MARIO_FR _("Merci, Mario!")
+#define TEXT_SOMETHING_SPECIAL_FR _("Tu mérites une récompense...")
+#define TEXT_COME_ON_EVERYBODY_FR _("Venez les amis...")
+#define TEXT_LETS_HAVE_CAKE_FR _("Allons préparer un délicieux gâteau...")
+#define TEXT_FOR_MARIO_FR _("...pour Mario...")
 // German
 #define TEXT_POWER_STARS_RESTORED_DE _("Die Macht der Sterne ruht wieder sicher im Schloss...")
-#define TEXT_THANKS_TO_YOU_DE        _("...und alles dank Deiner Hilfe!")
-#define TEXT_THANK_YOU_MARIO_DE      _("Vielen Dank, Mario!")
-#define TEXT_SOMETHING_SPECIAL_DE    _("Wir haben eine Überraschung für Dich...")
-#define TEXT_COME_ON_EVERYBODY_DE    _("Hört alle her...")
-#define TEXT_LETS_HAVE_CAKE_DE       _("Laßt uns einen leckeren Kuchen backen...")
-#define TEXT_FOR_MARIO_DE            _("...für Mario...")
+#define TEXT_THANKS_TO_YOU_DE _("...und alles dank Deiner Hilfe!")
+#define TEXT_THANK_YOU_MARIO_DE _("Vielen Dank, Mario!")
+#define TEXT_SOMETHING_SPECIAL_DE _("Wir haben eine Überraschung für Dich...")
+#define TEXT_COME_ON_EVERYBODY_DE _("Hört alle her...")
+#define TEXT_LETS_HAVE_CAKE_DE _("Laßt uns einen leckeren Kuchen backen...")
+#define TEXT_FOR_MARIO_DE _("...für Mario...")
+// Finnish
+#define TEXT_POWER_STARS_RESTORED_FI _("Tähtien voima on palautettu linnaan...")
+#define TEXT_THANKS_TO_YOU_FI _("...ja se on kaikki sinun ansiostasi!")
+#define TEXT_THANK_YOU_MARIO_FI _("Paljon kiitoksia, Mario!")
+#define TEXT_SOMETHING_SPECIAL_FI _("Ansaitset palkinnon vaivastasi...")
+#define TEXT_COME_ON_EVERYBODY_FI _("Kuulkaa kaikki...")
+#define TEXT_LETS_HAVE_CAKE_FI _("Leivotaan oikein maistuva kakku...")
+#define TEXT_FOR_MARIO_FI _("...Mariolle...")
 
 /**
  * Course Table names for Score Menu Save view
