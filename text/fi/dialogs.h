@@ -107,8 +107,8 @@ Ready....\n\
 //Go!////Don't Go"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to scam ME.
-"You've gotta run\n\
+Hey!!! Don't try to scam ME.\n\
+You've gotta run\n\
 the whole course.\n\
 Later. Look me up when\n\
 you want to race for\n\
