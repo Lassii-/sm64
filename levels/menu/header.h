@@ -43,6 +43,7 @@ extern const Collision main_menu_seg7_collision[];
 extern const u8 eu_course_strings_en_table[];
 extern const u8 eu_course_strings_fr_table[];
 extern const u8 eu_course_strings_de_table[];
+extern const u8 eu_course_strings_fi_table[];
 #endif
 
 // script
