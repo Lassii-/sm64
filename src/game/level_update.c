@@ -97,10 +97,10 @@ const char *credits15[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KA
 const char *credits16[] = { "5SCREEN TEXT WRITER", "TRANSLATION", "LESLIE SWAN", "MINA AKINO",
                             "HIRO YAMADA" }; // ...in order to make room for these 2 new lines
 #else // VERSION_EU
-const char *credits09[] = { "7SOUND COMPOSER", "SOUND EFFECTS", "SOUND PROGRAMMER", "KOJI KONDO",
-                            "YOJI INAGAKI", "HIDEAKI SHIMIZU" };
-const char *credits10[] = { "63-D ANIMATORS", "ADDITIONAL GRAPHICS", "YOSHIAKI KOIZUMI", "SATORU TAKIZAWA",
-                            "MASANAO ARIMOTO" };
+const char *credits09[] = { "7SOUND COMPOSER", "SOUND EFFECTS", "SOUND PROGRAMMER",
+                            "KOJI KONDO",      "YOJI INAGAKI",  "HIDEAKI SHIMIZU" };
+const char *credits10[] = { "63-D ANIMATORS", "ADDITIONAL GRAPHICS", "YOSHIAKI KOIZUMI",
+                            "SATORU TAKIZAWA", "MASANAO ARIMOTO" };
 const char *credits11[] = { "3TECHNICAL SUPPORT", "TAKAO SAWANO", "HIROHITO YOSHIMOTO", "HIROTO YADA" };
 const char *credits12[] = { "1TECHNICAL SUPPORT", "SGI N64 PROJECT STAFF" };
 const char *credits13[] = { "2PROGRESS MANAGEMENT", "KIMIYOSHI FUKUI", "KEIZO KATO" };
@@ -114,14 +114,13 @@ const char *credits16[] = { "4SCREEN TEXT WRITER", "GERMAN TRANSLATION", "THOMAS
 const char *credits17[] = { "4MARIO VOICE", "PEACH VOICE", "CHARLES MARTINET", "LESLIE SWAN" };
 const char *credits18[] = { "3SPECIAL THANKS TO", "EAD STAFF", "ALL NINTENDO PERSONNEL",
 #ifdef VERSION_US
-                           "MARIO CLUB STAFF" };
+                            "MARIO CLUB STAFF" };
 #else // VERSION_EU
-                           "SUPER MARIO CLUB STAFF" };
+                            "SUPER MARIO CLUB STAFF" };
 #endif
 const char *credits19[] = { "1PRODUCER", "SHIGERU MIYAMOTO" };
 const char *credits20[] = { "1EXECUTIVE PRODUCER", "HIROSHI YAMAUCHI" };
 #endif
-
 
 struct CreditsEntry sCreditsSequence[] = {
     { LEVEL_CASTLE_GROUNDS, 1, 1, -128, { 0, 8000, 0 }, NULL },
@@ -172,7 +171,6 @@ u8 unused1[4] = { 0 };
 s8 D_8032C9E0 = 0;
 u8 unused3[4];
 u8 unused4[2];
-
 
 u16 level_control_timer(s32 timerOp) {
     switch (timerOp) {
@@ -703,7 +701,9 @@ s16 level_trigger_warp(struct MarioState *m, s32 warpOp) {
         switch (warpOp) {
             case WARP_OP_DEMO_NEXT:
             case WARP_OP_DEMO_END:
-                do {sDelayedWarpTimer = 20;} while (0);
+                do {
+                    sDelayedWarpTimer = 20;
+                } while (0);
                 sSourceWarpNodeId = WARP_NODE_F0;
                 gSavedCourseNum = COURSE_NONE;
                 val04 = FALSE;
@@ -1254,6 +1254,10 @@ s32 lvl_init_from_save_file(UNUSED s16 arg0, s32 levelNum) {
         case LANGUAGE_GERMAN:
             load_segment_decompress(0x19, _translation_de_mio0SegmentRomStart,
                                     _translation_de_mio0SegmentRomEnd);
+            break;
+        case LANGUAGE_FINNISH:
+            load_segment_decompress(0x19, _translation_en_mio0SegmentRomStart,
+                                    _translation_en_mio0SegmentRomEnd);
             break;
     }
 #endif
