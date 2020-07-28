@@ -21,6 +21,7 @@ extern u8 dl_menu_texture_kurs_upper[];
 extern const u8 eu_course_strings_en_table[];
 extern const u8 eu_course_strings_fr_table[];
 extern const u8 eu_course_strings_de_table[];
+extern const u8 eu_course_strings_fi_table[];
 #endif
 
 // from intro_segment7
