@@ -269,7 +269,7 @@ Prinsessa Toadstool"))
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Welcome.\n\
 No one's home!\n\
-Now " SCRAM "\n\
+Now get lost\n\
 and don't come back!\n\
 Gwa ha ha!"))
 
