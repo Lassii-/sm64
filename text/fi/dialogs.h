@@ -267,10 +267,10 @@ Ystävällisesti--\n\
 Prinsessa Toadstool"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
-Welcome.\n\
-No one's home!\n\
-Now get lost\n\
-and don't come back!\n\
+Tervetuloa.\n\
+Kukaan ei ole kotona!\n\
+Nyt häivy\n\
+äläkä tule takaisin!!\n\
 Gwa ha ha!"))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
@@ -621,21 +621,25 @@ Long Jump! Or crouch and\n\
 walk to...never mind."))
 
 DEFINE_DIALOG(DIALOG_051, 1, 6, 30, 200, _("\
-Climbing's easy! When you\n\
-jump at trees, poles or\n\
-pillars, you'll grab them\n\
-automatically. Press [A] to\n\
-jump off backward.\n\
+Kiipeäminen on helppoa!\n\
+Kun hyppäät puita, tolppia tai\n\
+pilareita vasten,\n\
+tartut niihin\n\
+automaattisesti.\n\
+Paina [A] hypätäksesi pois\n\
+taaksepäin.\n\
 \n\
-To rotate around the\n\
-object, press Right or\n\
-Left on the Control Stick.\n\
-When you reach the top,\n\
-press Up to do a\n\
-handstand!\n\
-Jump off from the\n\
-handstand for a high,\n\
-stylin' dismount."))
+Kääntyäksesi kiivettävän\n\
+kohteen ympärillä, paina\n\
+ohjaussauvaa oikealle tai\n\
+vasemmalle.\n\
+Saavutettuasi huipun,\n\
+paina ylöspäin seisoaksesi\n\
+käsilläsi!\n\
+Jos hyppäät\n\
+käsilläseisonnan aikana,\n\
+suoritat korkean\n\
+ja näyttävän alastulon."))
 
 DEFINE_DIALOG(DIALOG_052, 1, 5, 30, 200, _("\
 Stop and press [Z] to\n\
@@ -1956,7 +1960,8 @@ sliding, press [A] or [B]."))
 #ifdef VERSION_EU
 #define KEEP_ON_PLAYING ".."
 #else
-#define KEEP_ON_PLAYING "\n\
+#define KEEP_ON_PLAYING                                                                                \
+    "\n\
 We want you to keep on\n\
 playing, so we have a\n\
 little something for you.\n\
@@ -1984,8 +1989,7 @@ message for you.\n\
 『Thanks for playing Super\n\
 Mario 64! This is the\n\
 end of the game, but not\n\
-the end of the fun." \
-KEEP_ON_PLAYING "』\n\
+the end of the fun." KEEP_ON_PLAYING "』\n\
 \n\
 The Super Mario 64 Team"))
 
