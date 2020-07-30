@@ -728,6 +728,7 @@ SECTIONS
    MIO0_EU_SEG(translation_en, 0x19000000)
    MIO0_EU_SEG(translation_fr, 0x19000000)
    MIO0_EU_SEG(translation_de, 0x19000000)
+   MIO0_EU_SEG(translation_fi, 0x19000000)
 #endif
 
    /* mario actor group */
