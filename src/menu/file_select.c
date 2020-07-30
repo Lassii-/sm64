@@ -1083,15 +1083,15 @@ void render_sound_mode_menu_buttons(struct Object *soundModeButton) {
 #ifdef VERSION_EU
     // English option button
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_ENGLISH] = spawn_object_rel_with_rot(
-        soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, 533, -111, -100, 0, -0x8000, 0);
+        soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, 833, -111, -100, 0, -0x8000, 0);
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_ENGLISH]->oMenuButtonScale = 0.11111111f;
     // French option button
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_FRENCH] = spawn_object_rel_with_rot(
-        soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, 0, -111, -100, 0, -0x8000, 0);
+        soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, 333, -111, -100, 0, -0x8000, 0);
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_FRENCH]->oMenuButtonScale = 0.11111111f;
     // German option button
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_GERMAN] =
-        spawn_object_rel_with_rot(soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, -533,
+        spawn_object_rel_with_rot(soundModeButton, MODEL_MAIN_MENU_GENERIC_BUTTON, bhvMenuButton, -233,
                                   -111, -100, 0, -0x8000, 0);
     sMainMenuButtons[MENU_BUTTON_LANGUAGE_GERMAN]->oMenuButtonScale = 0.11111111f;
     // Finnish option button
@@ -2508,7 +2508,7 @@ void print_sound_mode_menu_strings(void) {
     }
 
     // In EU, print language mode names
-    for (mode = 0, textX = 90; mode < 3; textX += 70, mode++) {
+    for (mode = 0, textX = 55; mode < 4; textX += 70, mode++) {
         if (mode == sLanguageMode) {
             gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sTextBaseAlpha);
         } else {
