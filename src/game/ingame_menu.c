@@ -2766,7 +2766,7 @@ s16 render_pause_courses_and_castle(void) {
 
 void print_hud_course_complete_string(s8 str) {
 #ifdef VERSION_EU
-    u8 textHiScore[][15] = { { TEXT_HUD_HI_SCORE },
+    u8 textHiScore[][16] = { { TEXT_HUD_HI_SCORE },
                              { TEXT_HUD_HI_SCORE_FR },
                              { TEXT_HUD_HI_SCORE_DE },
                              { TEXT_HUD_HI_SCORE_FI } };
@@ -3015,13 +3015,16 @@ void render_save_confirmation(s16 x, s16 y, s8 *index, s16 sp6e)
 #ifdef VERSION_EU
     u8 textSaveAndContinueArr[][24] = { { TEXT_SAVE_AND_CONTINUE },
                                         { TEXT_SAVE_AND_CONTINUE_FR },
-                                        { TEXT_SAVE_AND_CONTINUE_DE } };
+                                        { TEXT_SAVE_AND_CONTINUE_DE },
+                                        { TEXT_SAVE_AND_CONTINUE_FI } };
     u8 textSaveAndQuitArr[][22] = { { TEXT_SAVE_AND_QUIT },
                                     { TEXT_SAVE_AND_QUIT_FR },
-                                    { TEXT_SAVE_AND_QUIT_DE } };
+                                    { TEXT_SAVE_AND_QUIT_DE },
+                                    { TEXT_SAVE_AND_QUIT_FI } };
     u8 textContinueWithoutSaveArr[][27] = { { TEXT_CONTINUE_WITHOUT_SAVING },
                                             { TEXT_CONTINUE_WITHOUT_SAVING_FR },
-                                            { TEXT_CONTINUE_WITHOUT_SAVING_DE } };
+                                            { TEXT_CONTINUE_WITHOUT_SAVING_DE },
+                                            { TEXT_CONTINUE_WITHOUT_SAVING_FI } };
 #define textSaveAndContinue textSaveAndContinueArr[gInGameLanguage]
 #define textSaveAndQuit textSaveAndQuitArr[gInGameLanguage]
 #define textContinueWithoutSave textContinueWithoutSaveArr[gInGameLanguage]
