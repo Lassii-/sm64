@@ -11,7 +11,7 @@ First, talk to the\n\
 Bob-omb Buddy. (Press [B]\n\
 to talk.) He'll certainly\n\
 help you out, and so will\n\
-his comrades in other\n\
+his friends in other\n\
 areas.\n\
 To read signs, stop, face\n\
 them and press [B]. Press [A]\n\
@@ -23,7 +23,7 @@ and pressing [B]."))
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch out! If you wander\n\
 around here, you're liable\n\
-to be plastered by a\n\
+to be splattered by a\n\
 water bomb!\n\
 Those enemy Bob-ombs love\n\
 to fight, and they're\n\
@@ -107,7 +107,7 @@ Ready....\n\
 //Go!////Don't Go"))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to scam ME.\n\
+Hey!!! Don't try to cheat!\n\
 You've gotta run\n\
 the whole course.\n\
 Later. Look me up when\n\
@@ -259,17 +259,17 @@ Shhh! Please walk\n\
 quietly in the hallway!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
-Please come to the\n\
-castle. I've baked\n\
-a cake for you.\n\
-Yours truly--\n\
-Princess Toadstool"))
+Rakas Mario:\n\
+Tulethan käymään\n\
+linnassani. Olen\n\
+leiponut kakun sinulle.\n\
+Ystävällisesti--\n\
+Prinsessa Toadstool"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
 Welcome.\n\
 No one's home!\n\
-Now get lost\n\
+Now " SCRAM "\n\
 and don't come back!\n\
 Gwa ha ha!"))
 
@@ -372,9 +372,9 @@ around while flying, and\n\
 press [Z] to land."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 6, 30, 200, _("\
-Ciao! You've reached\n\
-Princess Toadstool's\n\
-castle via a warp pipe.\n\
+Ciao! Olet saapunut\n\
+Prinsessa Toadstoolin\n\
+linnalle warppi-putkesta.\n\
 Using the controller is a\n\
 piece of cake. Press [A] to\n\
 jump and [B] to attack.\n\
@@ -769,7 +769,7 @@ You don't even have to\n\
 breathe while wearing it.\n\
 \n\
 The only problem:\n\
-It's too heavy to swim with."))
+It's too heavy to swim with"))
 
 DEFINE_DIALOG(DIALOG_063, 1, 5, 30, 200, _("\
 The Vanish Cap is inside\n\
@@ -2058,16 +2058,18 @@ so come back later.\n\
 //--Koopa the Quick"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-Princess Toadstool's\n\
-castle is just ahead.\n\
+Prinsessa Toadstoolin\n\
+linna on suoraan edessä.\n\
 \n\
 \n\
-Press [A] to jump, [Z] to\n\
-crouch, and [B] to punch,\n\
-read a sign, or grab\n\
-something.\n\
-Press [B] again to throw\n\
-something you're holding."))
+Paina [A] hypätäksesi,\n\
+[Z] mennäksesi kyykkyyn,\n\
+sekä [B] lyödäksesi,\n\
+lukeaksesi tauluja tai\n\
+tarttuaksesi johonkin.\n\
+Paina [B] uudestaan\n\
+heittääksesi poimimasi\n\
+esineen."))
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 Hey! Knock it off! That's\n\
