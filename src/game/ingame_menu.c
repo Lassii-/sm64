@@ -2231,7 +2231,9 @@ void render_pause_red_coins(void) {
 }
 
 #ifdef VERSION_EU
-u8 gTextCourseArr[][7] = { { TEXT_COURSE }, { TEXT_COURSE_FR }, { TEXT_COURSE_DE } };
+u8 gTextCourseArr[][7] = {
+    { TEXT_COURSE }, { TEXT_COURSE_FR }, { TEXT_COURSE_DE }, { TEXT_COURSE_FI }
+};
 #endif
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
@@ -2253,7 +2255,9 @@ u8 gTextCourseArr[][7] = { { TEXT_COURSE }, { TEXT_COURSE_FR }, { TEXT_COURSE_DE
 
 void render_pause_my_score_coins(void) {
 #ifdef VERSION_EU
-    u8 textMyScore[][10] = { { TEXT_MY_SCORE }, { TEXT_MY_SCORE_FR }, { TEXT_MY_SCORE_DE } };
+    u8 textMyScore[][10] = {
+        { TEXT_MY_SCORE }, { TEXT_MY_SCORE_FR }, { TEXT_MY_SCORE_DE }, { TEXT_MY_SCORE_FI }
+    };
 #define textMyScore textMyScore[gInGameLanguage]
 #else
     u8 textCourse[] = { TEXT_COURSE };
@@ -2373,14 +2377,14 @@ void render_pause_camera_options(s16 x, s16 y, s8 *index, s16 xIndex) {
     u8 textLakituMario[] = { TEXT_LAKITU_MARIO };
     u8 textLakituStop[] = { TEXT_LAKITU_STOP };
 #ifdef VERSION_EU
-    u8 textNormalUpClose[][20] = { { TEXT_NORMAL_UPCLOSE },
+    u8 textNormalUpClose[][22] = { { TEXT_NORMAL_UPCLOSE },
                                    { TEXT_NORMAL_UPCLOSE_FR },
-                                   { TEXT_NORMAL_UPCLOSE_DE } };
-    u8 textNormalFixed[][17] = {
-        { TEXT_NORMAL_FIXED },
-        { TEXT_NORMAL_FIXED_FR },
-        { TEXT_NORMAL_FIXED_DE },
-    };
+                                   { TEXT_NORMAL_UPCLOSE_DE },
+                                   { TEXT_NORMAL_UPCLOSE_FI } };
+    u8 textNormalFixed[][20] = { { TEXT_NORMAL_FIXED },
+                                 { TEXT_NORMAL_FIXED_FR },
+                                 { TEXT_NORMAL_FIXED_DE },
+                                 { TEXT_NORMAL_FIXED_FI } };
 #define textNormalUpClose textNormalUpClose[gInGameLanguage]
 #define textNormalFixed textNormalFixed[gInGameLanguage]
 #else
@@ -2424,13 +2428,16 @@ void render_pause_camera_options(s16 x, s16 y, s8 *index, s16 xIndex) {
 
 void render_pause_course_options(s16 x, s16 y, s8 *index, s16 yIndex) {
 #ifdef VERSION_EU
-    u8 textContinue[][10] = { { TEXT_CONTINUE }, { TEXT_CONTINUE_FR }, { TEXT_CONTINUE_DE } };
-    u8 textExitCourse[][15] = { { TEXT_EXIT_COURSE },
-                                { TEXT_EXIT_COURSE_FR },
-                                { TEXT_EXIT_COURSE_DE } };
-    u8 textCameraAngleR[][24] = { { TEXT_CAMERA_ANGLE_R },
+    u8 textContinue[][10] = {
+        { TEXT_CONTINUE }, { TEXT_CONTINUE_FR }, { TEXT_CONTINUE_DE }, { TEXT_CONTINUE_FI }
+    };
+    u8 textExitCourse[][15] = {
+        { TEXT_EXIT_COURSE }, { TEXT_EXIT_COURSE_FR }, { TEXT_EXIT_COURSE_DE }, { TEXT_EXIT_COURSE_FI }
+    };
+    u8 textCameraAngleR[][35] = { { TEXT_CAMERA_ANGLE_R },
                                   { TEXT_CAMERA_ANGLE_R_FR },
-                                  { TEXT_CAMERA_ANGLE_R_DE } };
+                                  { TEXT_CAMERA_ANGLE_R_DE },
+                                  { TEXT_CAMERA_ANGLE_R_FI } };
 #define textContinue textContinue[gInGameLanguage]
 #define textExitCourse textExitCourse[gInGameLanguage]
 #define textCameraAngleR textCameraAngleR[gInGameLanguage]
@@ -2761,10 +2768,12 @@ void print_hud_course_complete_string(s8 str) {
 #ifdef VERSION_EU
     u8 textHiScore[][15] = { { TEXT_HUD_HI_SCORE },
                              { TEXT_HUD_HI_SCORE_FR },
-                             { TEXT_HUD_HI_SCORE_DE } };
+                             { TEXT_HUD_HI_SCORE_DE },
+                             { TEXT_HUD_HI_SCORE_FI } };
     u8 textCongratulations[][16] = { { TEXT_HUD_CONGRATULATIONS },
                                      { TEXT_HUD_CONGRATULATIONS_FR },
-                                     { TEXT_HUD_CONGRATULATIONS_DE } };
+                                     { TEXT_HUD_CONGRATULATIONS_DE },
+                                     { TEXT_HUD_CONGRATULATIONS_FI } };
 #else
     u8 textHiScore[] = { TEXT_HUD_HI_SCORE };
     u8 textCongratulations[] = { TEXT_HUD_CONGRATULATIONS };
