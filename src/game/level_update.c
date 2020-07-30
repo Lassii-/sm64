@@ -1256,8 +1256,8 @@ s32 lvl_init_from_save_file(UNUSED s16 arg0, s32 levelNum) {
                                     _translation_de_mio0SegmentRomEnd);
             break;
         case LANGUAGE_FINNISH:
-            load_segment_decompress(0x19, _translation_en_mio0SegmentRomStart,
-                                    _translation_en_mio0SegmentRomEnd);
+            load_segment_decompress(0x19, _translation_fi_mio0SegmentRomStart,
+                                    _translation_fi_mio0SegmentRomEnd);
             break;
     }
 #endif
