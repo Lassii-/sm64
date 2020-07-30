@@ -263,7 +263,9 @@ void print_course_number(void) {
  */
 void print_act_selector_strings(void) {
 #ifdef VERSION_EU
-    unsigned char myScore[][10] = { { TEXT_MYSCORE }, { TEXT_MY_SCORE_FR }, { TEXT_MY_SCORE_DE } };
+    unsigned char myScore[][10] = {
+        { TEXT_MYSCORE }, { TEXT_MY_SCORE_FR }, { TEXT_MY_SCORE_DE }, { TEXT_MY_SCORE_FI }
+    };
 #else
     unsigned char myScore[] = { TEXT_MYSCORE };
 #endif
